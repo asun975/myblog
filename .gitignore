@@ -1,0 +1,40 @@
+### Django ###
+*.log
+*.pot
+local_settings.py
+settings.py
+dev.db*
+
+.env
+db.sqlite3
+
+### vscode
+.vscode
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# database & logs
+*.db
+*.sqlite3
+*.log
+
+# venv
+env
+venv
+
+# other
+.DS_Store
+
+# javascript
+package-lock.json
+
+staticfiles/*
+!staticfiles/.gitkeep 
+.vscode/symbols.json
